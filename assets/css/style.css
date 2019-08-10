@@ -1,0 +1,10 @@
+.jumbotron {
+    background-image: url('../images/galaxy.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(118, 62, 209);
+}
+
+.lead {
+    color: rgb(255, 145, 0);
+}
