@@ -10,15 +10,29 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class='container-fluid'>
+<body class="container-fluid">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Word Guess Game!</h1>
             <p class="lead">This is a simple word-guessing game, same as "Hangman".</p>
         </div>
     </div>
-
-
+    <div class="row">
+        <div class="offset-lg-3 col-lg-6">
+            <h2 id="start-msg">Press any key to start!</h2>
+            <h2 id="win-count">Wins: </h2>
+            <h2>Current Word</h2>
+            <div id="current-word">
+                <h2>hold</h2>
+            </div>
+            <h2 id="guess-count">Guesses Remaining: </h2>
+            <h2>Wrong Guesses</h2>
+            <div id="wrong-guesses">
+                <h2>hold</h2>
+            </div>
+            
+        </div>
+    </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

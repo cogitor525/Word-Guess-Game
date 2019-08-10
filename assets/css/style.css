@@ -1,3 +1,9 @@
+.container-fluid {
+    background-image: url('../images/nebula.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .jumbotron {
     background-image: url('../images/galaxy.jpg');
 	background-size: cover;
@@ -7,4 +13,12 @@
 
 .lead {
     color: rgb(255, 145, 0);
+}
+
+.row {
+    padding-top: 50px;
+}
+
+h2 {
+    color: gold;
 }
